@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Mulish', sans-serif;
+    background: linear-gradient(#081221, #03080f);
+    height: 100vh;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+input, textarea, select {
+    border: none;
+    background: #182c47;
+    color: #ffffff;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+textarea {
+    resize: none;
+    height: 100%;
+}
+
+input, select {
+    height: 30px;
+}
+
+.button {
+    background: #5692e8;
+    border: none;
+    color: #ffffff;
+    height: 30px;
+}
+
+.field-control {
+    .field-description {
+        display: flex;
+        height: 20px;
+        margin-bottom: 5px;
+
+        .required {
+            color: #5692e8;
+            margin-left: 5px;
+        }
+    }
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
